@@ -1,108 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naija Kitchen - Party Jollof Rice</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
- <body>
+
+<body>
     <header>
-    <h1>Naija Kitchen</h1>
-    <p>Coming Soon</p>
- <nav>
+        <h1>Naija Kitchen</h1>
+
+        <nav>
             <ul>
-                <li><a href="#hero">Recipe</a></li>
-                <li><a href="#ingredients">Ingredients</a></li>
-                <li><a href="#methods">Methods</a></li>
-                <li><a href="notes">Notes</a></li>
+                <li><a href="#hero">Recipe</a>
+                </li>
+                <li><a href="#ingredients">Ingredients</a>
+                </li>
+                <li><a href="#methods">Methods</a>
+                </li>
+                <li><a href="notes">Notes</a>
+                </li>
 
             </ul>
         </nav>
-     </header>
+    </header>
 
-     <main class="container">
+    <main class="container">
         <section id="recipe">
             <article class="recipe-card">
-            <img class="recipe-card_image" src="image/jollof.jpg" 
-            alt="A pot of party jollof rice, browned at the edges">
-            <div class="recipe-card_body">
+                <img class="recipe-card_image" src="image/jollof.jpg">
 
+                <div class="recipe-card_body">
 
-            <h2>Party Jollof Rice</h2>
-            <p class="recipe-meta">Serves 6 .45 miutes . Medium</p>
-            
-        </div>
-     </article>
+                    <h2>Party Jollof Rice</h2>
+                    <p class="recipe-meta">Serves 6 .45 miutes . Medium</p>
 
-        <div class="tag-row">
-            <span class="tag tag--spicy">Spicy</span>
-            <span class="tag tag--quick">One pot</span> 
-        </div>
-        <p class="recipe-intro">
-            The smoky, tomato-rich rice that starts arguments at every family gathering.
-              This is the party version, cooked long enough to catch at the bottom.
-        </p>
+                </div>
+            </article>
 
-        <button class="btn">Print recipe</button>
+            <div class="tag-row">
+                <span class="tag tag--spicy">Spicy</span>
+                <span class="tag tag--quick">One pot</span>
+            </div>
+            <p class="recipe-intro">
+                The smoky, tomato-rich rice that starts arguments at every family gathering.
+                This is the party version, cooked long enough to catch at the bottom.
+            </p>
+
+            <button class="btn">Print recipe</button>
         </section>
 
 
         <section id="ingredients">
-            <h3>Ingredients</h3>
+            <h2>Ingredients</h2>
             <ul class="ingredients">
-            <li>3 cups long grain parboiled rice</li>
-            <li>6 large tomatoes, blended</li>
-            <li>2 red bell pepper, diced</li>
-            <li>Half cup of vegetable oil</li>
-            <li>3 tablespoons tomatoes paste</li>
-            <li>2 stock cubes</li>
-            <li>1 teaspoon curry power</li>
-            <li>1 teaspoon thyme</li>
-            <li>Salt to taste</li>
+                <li>3 cups long grain parboiled rice</li>
+                <li>6 large tomatoes, blended</li>
+                <li>2 red bell pepper, diced</li>
+                <li>Half cup of vegetable oil</li>
+                <li>3 tablespoons tomatoes paste</li>
+                <li>2 stock cubes</li>
+                <li>1 teaspoon curry power</li>
+                <li>1 teaspoon thyme</li>
+                <li>Salt to taste</li>
             </ul>
         </section>
 
         <section id="Method">
             <h2>Method</h2>
             <ol class="method">
-            <li>Blend the tomatoes, peppers and half the onion unit smoothly</li>
-            <li>Heat the oil and fry the remaining onion until golden</li> 
-            <li>Add the tomato paste and fry for 2 minutes</li>
-            <li>Add the blended tomato mixture and fry for 10 minutes</li>
-            <li>Add the stock cubes, curry powder, thyme and salt. Stir and cook for 5 minutes</li>
-            <li>Add the rice and stir to coat with the sauce</li>
-            <li>Add 4 cups of water and bring to a boil</li>
-            <li>Reduce the heat to low, cover and cook for 20 minutes</li>
-            <li>Remove from heat and let it sit for 10 minutes before serving</li>
+                <li>Blend the tomatoes, peppers and half the onion unit smoothly</li>
+                <li>Heat the oil and fry the remaining onion until golden</li>
+                <li>Add the tomato paste and fry for 2 minutes</li>
+                <li>Add the blended tomato mixture and fry for 10 minutes</li>
+                <li>Add the stock cubes, curry powder, thyme and salt. Stir and cook for 5 minutes</li>
+                <li>Add the rice and stir to coat with the sauce</li>
+                <li>Add 4 cups of water and bring to a boil</li>
+                <li>Reduce the heat to low, cover and cook for 20 minutes</li>
+                <li>Remove from heat and let it sit for 10 minutes before serving</li>
 
 
             </ol>
         </section>
 
         <section id="Note">
-            <h2>Note</h2>
-            <ul class="note">
-                 <div class="note">
-                <p><strong>The party smoke: </strong> the slight burn at the bottom is the main point. 
-                    Ressit the urge to stir the rice while cooking. 
-                    The bottom layer will be slightly burnt, 
+            <h2>Notes</h2>
+            <div class="note">
+                <p><strong>The party smoke: </strong> the slight burn at the bottom is the main point.
+                    Ressit the urge to stir the rice while cooking.
+                    The bottom layer will be slightly burnt,
                     but that is the point. It is what makes party jollof rice so special.
                 </p>
             </div>
-            <div class="note">
-             
-            </div>
-
-            </ul>
 
         </section>
-     </main>
+    </main>
+    <section id="review" class="container">
+        <h2>Leave a review</h2>
+        <form class="review-form">
+            <div class="form-group">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="e.g. amina@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="rating">Rating</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Choose a rating</option>
+                    <option value="5">5 — Party jollof perfection</option>
+                    <option value="4">4 — Almost perfect</option>
+                    <option value="3">3 — Good, could be better</option>
+                    <option value="2">2 — Needed work</option>
+                    <option value="1">1 — I have questions</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comment">Your review</label>
+                <textarea id="comment" name="comment" rows="5" placeholder="Tell us how it went..."></textarea>
+            </div>
+            <button type="submit" class="btn">Post review</button>
+        </form>
+    </section>
 
-     <footer>
+    <footer>
         <p>&copy; 2026 Naija kitchen</p>
-     </footer>
+    </footer>
 
-    
+
 </body>
+
 </html>
