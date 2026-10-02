@@ -192,15 +192,6 @@ nav a:focus {
         color: #92400e;
     }
 
-    /* FOOTER */
-    footer {
-        padding: 2rem;
-        margin-top: 3rem;
-        background: #1f2937;
-        color: white;
-        text-aligin: center;
-    }
-
     /* ==== REVIEW FORM ==== */
     review {
         padding: 2rem;
@@ -213,7 +204,9 @@ nav a:focus {
         box-shadow: 0 5px 18px rgba(red, green, blue, alpha);
     }
 
-    .form-group { margin-bottom: 1.3rem; 
+    .form-group {
+        
+         margin-bottom: 1.3rem; 
     } 
     
     .form-group label { display: block; font-weight: 700; margin-bottom: 0.5rem; color: #374151; 
@@ -242,3 +235,13 @@ nav a:focus {
     .form-group textarea { 
         resize: vertical; 
     }
+
+    /* FOOTER */
+    footer {
+        padding: 2rem;
+        margin-top: 3rem;
+        background: #1f2937;
+        color: white;
+        text-align: center;
+    }
+
