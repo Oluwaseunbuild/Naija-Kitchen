@@ -6,7 +6,7 @@
     box-sizing:  border-box;
 }
 
-/* -----SPACING SCALE ----- */
+/* ===== SPACING SCALE ===== */
 /* only use these. No arbitrary numbers.
    0.5rem - 1rem - 1.5rem - 2rem - 4rem */
 
@@ -68,8 +68,9 @@ header {
 }
 
 header h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     font-size: 1.5rem;
+    
 }
 
 nav ul {
@@ -78,8 +79,8 @@ nav ul {
     margin-bottom: 0;
     display: flex;
     gap: 1.5rem; 
-    /*flex-diection: column;
-    justify-content: center;*/
+    flex-wrap: wrap;
+   
 }
 
 nav a {
@@ -113,11 +114,9 @@ nav a:focus {
 
 }
 
-
 .recipe-card_body {
     padding: 1.5rems;
 }
-
 
 .recipe-card_body h2 {
     margin-top: 0;
@@ -131,7 +130,10 @@ nav a:focus {
 
 /* ==== TAGS =====*/
 
-.tag {
+.tag row {
+    display: flex; 
+    gap:0.5
+    flex-wrap: wrap;
     margin-bottom: 1rem;
 }
 
@@ -243,7 +245,7 @@ nav a:focus {
         resize: vertical; 
     }
 
-    /* FOOTER */
+    /* ====== FOOTER====== */
     footer {
         padding: 2rem;
         margin-top: 3rem;
@@ -278,6 +280,8 @@ nav a:focus {
     .footer-links a:focus{
         color: white
     }
+
+
     
 
 

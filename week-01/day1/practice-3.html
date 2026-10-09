@@ -1,9 +1,273 @@
-<div>
-      <h2>about us</h2>
-      <p>we are a tech company with a wide experence.</p>
-</div>
-<section>
-    <h2>our project</h2>
-    <p>explore our latest development</p>
-</section>
-<a href="http://127.0.0.1:5500/practice-3.html">html</a>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Naija Kitchen - Party Jollof Rice</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Naija Kitchen</h1>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#recipe">Recipe</a></li>
+                <li><a href="#ingredients">Ingredients</a></li>
+                <li><a href="#methods">Methods</a></li>
+                <li><a href="#notes">Notes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <!-- Recipe Section -->
+        <section id="recipe">
+            <article class="recipe-card">
+
+                <img
+                    class="recipe-card_image"
+                    src="images/jollof.jpg"
+                    alt="A delicious pot of Nigerian party jollof rice"
+                >
+
+                <div class="recipe-card_body">
+                    <h2>Party Jollof Rice</h2>
+                    <p class="recipe-meta">
+                        Serves 6 &middot; 45 minutes &middot; Medium
+                    </p>
+                </div>
+
+            </article>
+
+            <div class="tag-row">
+                <span class="tag tag--spicy">Spicy</span>
+                <span class="tag tag--quick">One pot</span>
+            </div>
+
+            <p class="recipe-intro">
+                The smoky, tomato-rich rice that starts arguments at every
+                family gathering. This is the party version, cooked long
+                enough to catch at the bottom.
+            </p>
+
+            <button type="button" class="btn" onclick="window.print()">
+                Print recipe
+            </button>
+        </section>
+
+        <!-- Ingredients Section -->
+        <section id="ingredients">
+            <h2>Ingredients</h2>
+
+            <ul class="ingredients">
+                <li>3 cups long-grain parboiled rice</li>
+                <li>6 large tomatoes, blended</li>
+                <li>2 red bell peppers, diced</li>
+                <li>1/2 cup vegetable oil</li>
+                <li>3 tablespoons tomato paste</li>
+                <li>2 stock cubes</li>
+                <li>1 teaspoon curry powder</li>
+                <li>1 teaspoon thyme</li>
+                <li>Salt to taste</li>
+                <li>1 large onion, divided</li>
+                <li>4 cups water or stock</li>
+            </ul>
+        </section>
+
+        <!-- Method Section -->
+        <section id="methods">
+            <h2>Method</h2>
+
+            <ol class="method">
+                <li>
+                    Blend the tomatoes, peppers, and half of the onion
+                    until smooth.
+                </li>
+                <li>
+                    Heat the oil and fry the remaining onion until golden.
+                </li>
+                <li>
+                    Add the tomato paste and fry for 2 minutes.
+                </li>
+                <li>
+                    Add the blended tomato mixture and fry for 10 minutes.
+                </li>
+                <li>
+                    Add the stock cubes, curry powder, thyme, and salt.
+                    Stir and cook for 5 minutes.
+                </li>
+                <li>
+                    Add the rice and stir to coat it evenly with the sauce.
+                </li>
+                <li>
+                    Add the water or stock and bring to a boil.
+                </li>
+                <li>
+                    Reduce the heat to low, cover, and cook for about
+                    20 minutes, checking occasionally until the rice is tender.
+                </li>
+                <li>
+                    Remove from the heat and let it rest for 10 minutes
+                    before serving.
+                </li>
+            </ol>
+        </section>
+
+        <!-- Notes Section -->
+        <section id="notes">
+            <h2>Notes</h2>
+
+            <div class="note">
+                <p>
+                    <strong>The party smoke:</strong>
+                    The slightly toasted layer at the bottom is part of
+                    what gives party jollof its distinctive flavour.
+                    Resist the urge to stir the rice too often while cooking.
+                    Be careful not to let it burn excessively.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="container">
+        <h2>More Nigerian Classics</h2>
+
+        <div class="gallery">
+
+            <article class="gallery__item">
+                <img
+                    class="gallery__image"
+                    src="images/jollof.jpg"
+                    alt="A pot of party jollof rice"
+                >
+
+                <div class="gallery__body">
+                    <h3 class="gallery__title">Party Jollof Rice</h3>
+                    <p class="gallery__meta">Serves 6 &middot; 45 minutes</p>
+                </div>
+            </article>
+
+            <article class="gallery__item">
+                <img
+                    class="gallery__image"
+                    src="images/egusi.jpg"
+                    alt="Traditional Nigerian egusi soup"
+                >
+
+                <div class="gallery__body">
+                    <h3 class="gallery__title">Egusi Soup</h3>
+                    <p class="gallery__meta">Serves 4 &middot; 1 hour</p>
+                </div>
+            </article>
+
+            <article class="gallery__item">
+                <img
+                    class="gallery__image"
+                    src="images/suya.jpg"
+                    alt="Spicy Nigerian suya skewers"
+                >
+
+                <div class="gallery__body">
+                    <h3 class="gallery__title">Suya Skewers</h3>
+                    <p class="gallery__meta">Serves 4 &middot; 30 minutes</p>
+                </div>
+            </article>
+
+            <article class="gallery__item">
+                <img
+                    class="gallery__image"
+                    src="images/moi-moi.jpg"
+                    alt="Nigerian steamed bean pudding known as moi moi"
+                >
+
+                <div class="gallery__body">
+                    <h3 class="gallery__title">Moi Moi</h3>
+                    <p class="gallery__meta">Serves 4 &middot; 1 hour</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Review Section -->
+    <section id="review" class="container">
+        <h2>Leave a Review</h2>
+
+        <form class="review-form" action="#" method="post">
+
+            <div class="form-group">
+                <label for="name">Your name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Full name"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="rating">Rating</label>
+
+                <select id="rating" name="rating" required>
+                    <option value="">Choose a rating</option>
+                    <option value="5">5 - Party jollof perfection</option>
+                    <option value="4">4 - Almost perfect</option>
+                    <option value="3">3 - Good, could be better</option>
+                    <option value="2">2 - Needed work</option>
+                    <option value="1">1 - I have questions</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="comment">Your review</label>
+
+                <textarea
+                    id="comment"
+                    name="comment"
+                    rows="5"
+                    placeholder="Tell us how it went..."
+                ></textarea>
+            </div>
+
+            <button type="submit" class="btn">Post Review</button>
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Naija Kitchen. Made with HTML and CSS.</p>
+
+        <ul class="footer-links">
+            <li><a href="#recipe">Recipe</a></li>
+            <li><a href="#ingredients">Ingredients</a></li>
+            <li><a href="#review">Leave a Review</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
